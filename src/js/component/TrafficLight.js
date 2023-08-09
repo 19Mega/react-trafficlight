@@ -67,7 +67,7 @@ const TrafficLight = () => {
 
             <div className="d-grid gap-2 col-6 mx-auto">
                 <p>{indiceColor}</p>
-                <button className="btn btn-primary" type="button" onClick={changeColor}> Cambiar el color del semáforo</button>
+                <button className="btn btn-secondary" type="button" onClick={changeColor}> Cambiar el color del semáforo</button>
                 
             </div>
         </>
